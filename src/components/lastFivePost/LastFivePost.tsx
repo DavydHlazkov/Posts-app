@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./lastFivePost.css"
 
 function LastFivePost ({info}:any){
 
@@ -16,7 +17,7 @@ function LastFivePost ({info}:any){
     },[info.length])
 
     return(
-        <div>
+        <div className="last-five-container">
             {info.length === 0
              ? "no post" 
              : lastFive.map((c: any) => <div className="post-list" key={c.userName}>

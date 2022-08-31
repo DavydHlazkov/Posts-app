@@ -1,10 +1,11 @@
 .container{
   display: flex;
+  
 }
 
 .form{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   margin-left: 50px;
 }
